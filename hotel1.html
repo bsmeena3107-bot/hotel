@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>XXXX HOTEL | Banquet Hall • Cafe • AC Rooms</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
+    body { background: linear-gradient(135deg,#ffecd2,#fcb69f); color: #333; }
+    header { background: linear-gradient(120deg, rgba(255,94,98,.7), rgba(255,195,113,.7)), url('https://images.unsplash.com/photo-1521334884684-d80222895322'); background-size: cover; background-position: center; color: #fff; padding: 100px 20px; text-align: center; }
+    header h1 { font-size: 42px; margin-bottom: 10px; }
+    header p { font-size: 18px; }
+    nav { background: #1e1e1e; padding: 12px; text-align: center; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: 500; }
+    section { padding: 60px 8%; background: linear-gradient(180deg,#ffffff,#fdf1d6,#fbe7ff); margin-bottom: 12px; border-radius: 20px; }
+    section h2 { text-align: center; font-size: 32px; margin-bottom: 30px; color: #b8860b; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); gap: 20px; }
+    .card { background: linear-gradient(160deg,#ffffff,#fff7e6); padding: 22px; border-radius: 16px; box-shadow: 0 8px 20px rgba(0,0,0,.12); }
+    .card h3 { margin-bottom: 10px; color: #333; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: 15px; }
+.gallery img { width: 100%; height: 200px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,.15); }
+    .gallery div { height: 180px; background: #ddd; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #555; }
+    .contact { text-align: center; }
+    .contact p { margin: 10px 0; font-size: 16px; }
+    .btn { display: inline-block; margin: 10px; padding: 12px 22px; background: #b8860b; color: #fff; text-decoration: none; border-radius: 25px; }
+    footer { background: #1e1e1e; color: #ccc; text-align: center; padding: 20px; }
+  @media (max-width:768px){
+  header h1{font-size:30px}
+  nav a{display:inline-block;margin:8px;font-size:14px}
+  section{padding:40px 6%}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>DEMO HOTEL</h1>
+  <p>Luxury Banquet Hall • Cafe & Snacks • Premium AC Rooms</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#banquet">Banquet</a>
+  <a href="#cafe">Cafe</a>
+  <a href="#rooms">AC Rooms</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>Welcome</h2>
+  <p style="text-align:center; max-width:800px; margin:auto;">
+    We offer a complete experience for celebrations, dining and comfortable stay. 
+    From beautifully decorated banquet halls for birthday & kitty parties to a cozy cafe and clean AC rooms — everything under one roof.
+  </p>
+</section>
+
+<section id="banquet">
+  <h2>Banquet & Events</h2>
+  <div class="cards">
+    <div class="card"><h3>Birthday Party</h3><p>Perfect setup with decoration, food & seating.</p></div>
+    <div class="card"><h3>Kitty Party</h3><p>Comfortable space for small & medium gatherings.</p></div>
+    <div class="card"><h3>Ring Ceremony</h3><p>Elegant stage & premium ambience.</p></div>
+  </div>
+</section>
+
+<section id="cafe">
+  <h2>Cafe & Snacks</h2>
+  <div class="cards">
+    <div class="card"><h3>Coffee & Beverages</h3><p>Freshly brewed coffee & refreshments.</p></div>
+    <div class="card"><h3>Fast Food</h3><p>Pizza, snacks & quick bites.</p></div>
+    <div class="card"><h3>Family Friendly</h3><p>Clean & comfortable cafe environment.</p></div>
+  </div>
+</section>
+
+<section id="rooms">
+  <h2>AC Rooms</h2>
+  <div class="cards">
+    <div class="card"><h3>Clean & Hygienic</h3><p>Well maintained rooms for your comfort.</p></div>
+    <div class="card"><h3>Modern Amenities</h3><p>AC, TV, Wi‑Fi & attached washroom.</p></div>
+    <div class="card"><h3>Family & Business Stay</h3><p>Ideal for all types of guests.</p></div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Banquet Stage">
+    <img src="https://images.unsplash.com/photo-1551776235-dde6d482980b" alt="Reception Area">
+    <img src="https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba" alt="Party Hall">
+    <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511" alt="AC Room">
+    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5" alt="Cafe Area">
+    <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a" alt="Decoration">
+  </div>
+    <div>Reception Area</div>
+    <div>Party Hall</div>
+    <div>AC Room</div>
+    <div>Cafe</div>
+    <div>Decoration</div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <p>📞 Phone: +91-9671331075</p>
+  <p>📍 Location: India</p>
+  <a class="btn" href="tel:+91XXXXXXXXXX">Call Now</a>
+  <a class="btn" href="https://wa.me/91XXXXXXXXXX">WhatsApp</a>
+</section>
+
+<footer>
+  <p>© 2026 Banquet | Cafe | AC Rooms. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
